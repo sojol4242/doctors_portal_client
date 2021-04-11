@@ -1,0 +1,11 @@
+.book_appoint_title{
+   font-weight: 600;
+   letter-spacing:2px;
+   color:#13d1d2;
+   font-family: 'Ubuntu Mono', monospace;
+
+}
+.date{
+    border-bottom: 2px solid #d2132c;
+    color:#d21343;
+}

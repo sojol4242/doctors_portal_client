@@ -1,0 +1,147 @@
+.home-bg{
+    
+    position: relative;
+    color: #222222;
+}
+.home-bg:after{
+    height: 100%;
+    width: 30%;
+    content: '';
+    position: absolute;
+    top: 0;
+    right:0;
+    background-color: #3a4256;
+    z-index: -1;
+ 
+}
+.home-content{
+    background-image: url(https://i.ibb.co/Q93ZtRk/Mask-Group-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+}
+ .btn{
+     background-color: #13d1d2;
+     border: none;
+     font-weight: 600;
+     font-size: 1.1rem;
+     color: #ebebeb;
+     padding: 10px 30px;
+     border: 1px solid #13d1d2
+   
+ }
+ .btn:hover{
+     background-color: transparent;
+     color: #232424;
+    
+ }
+ .home-cards{
+    justify-content: center;
+     width: 100%;
+  
+     align-items: center;
+}
+
+  
+ .home_card {
+     border: none;
+     border-radius: 5px;
+     padding: 10px;
+     color: bisque;
+     margin-right: 30px;
+
+ }
+ .card_icon{
+    color: bisque;
+    font-size: 2.5rem;
+
+ }
+/*  
+ .services_container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .service{
+     border: 1px solid #13d1d2;
+     padding:15px 20px;
+     border-radius: 6px;
+     margin: 20px;
+     box-shadow: 0 6px 2px 1px #13d1d2
+      
+ }
+ .services{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ .service_content{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     
+ } */
+ .services_title{
+     font-size: 1.2rem;
+     color: #13d1d2;
+ }
+ .services_sub_title{
+     font-size: 2rem;
+     font-family: 'Ubuntu Mono', monospace;
+     font-weight: 600;
+     color: #1f2020;
+ } 
+
+ .service_img{
+     height: 80px;
+     width:80px;
+     margin: 0 auto;
+ }
+ .service_content{
+     padding: 20px;
+     margin-right: 20px;
+     border: 1px solid #13d1d2;
+     border-radius: 6px;
+     font-family: 'Ubuntu Mono', monospace;   
+} 
+ 
+ 
+ @media(max-width:768px){
+     .nav-brand{
+        color: #ebebeb !important; 
+        font-size: 2rem;
+        font-weight: 700;
+
+     }
+     .nav-bg{
+     background-color: #3a4256 !important;
+     }
+    .nav-link{
+        color: #ebebeb !important; 
+    }
+    .home-bg:after{
+        
+        background-color: transparent;
+        
+     
+    }
+.home-cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home_card {
+   margin: 1rem 0;  
+
+}
+.hero-content{
+
+    margin: 2rem;
+}
+ }
+ 
